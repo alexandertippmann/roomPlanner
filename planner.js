@@ -9,7 +9,7 @@ var stage = new Konva.Stage({
 var stageWidth = stage.width();
 var stageHeight = stage.height() - 5;
 var maxWidth = 400; //Unit cm 
-var maxHeight = 478; //Unit cm
+var maxHeight = 438; //Unit cm
 
 
 // get factor to scale to stage
@@ -42,16 +42,16 @@ var room = new Konva.Shape({
         context.lineTo(200 * scale, 5 * scale);
         context.lineTo(200 * scale, 0);
         context.lineTo(400 * scale, 0);
-        context.lineTo(400 * scale, 478 * scale)
-        context.lineTo(238.5 * scale, 478 * scale)
-        context.lineTo(238.5 * scale, 457.5 * scale)
-        context.lineTo(205.5 * scale, 457.5 * scale)
-        context.lineTo(205.5 * scale, 478 * scale)
-        context.lineTo(193.5 * scale, 478 * scale)
-        context.lineTo(193.5 * scale, 476 * scale)
-        context.lineTo(97.5 * scale, 476 * scale)
-        context.lineTo(97.5 * scale, 478 * scale)
-        context.lineTo(0, 478 * scale)
+        context.lineTo(400 * scale, 438 * scale)
+        context.lineTo(238.5 * scale, 438 * scale)
+        context.lineTo(238.5 * scale, 417.5 * scale)
+        context.lineTo(205.5 * scale, 417.5 * scale)
+        context.lineTo(205.5 * scale, 438 * scale)
+        context.lineTo(193.5 * scale, 438 * scale)
+        context.lineTo(193.5 * scale, 436 * scale)
+        context.lineTo(97.5 * scale, 436 * scale)
+        context.lineTo(97.5 * scale, 438 * scale)
+        context.lineTo(0, 438 * scale)
         context.closePath();
         context.fillStrokeShape(shape);
     },
